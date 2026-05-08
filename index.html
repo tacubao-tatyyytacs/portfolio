@@ -5,11 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Taty's Portfolio</title>
-
 </head>
-
 <body>
-  <header>
+
+  <header class="site-header">
     <h1>Tatyana's Portfolio</h1>
     <nav>
       <a href="#about">About</a>
@@ -19,45 +18,103 @@
   </header>
 
   <main>
-    <section>
-      <h2>Hi!</h2>
-      <p>I am Alyssa Tatyana Tacubao. This is my portfolio, although there is not much to see, I do hope it is to your liking.</p>
+    <section class="idk">
+      <div class="hero-text">
+        <p class="small-label">Student Portfolio</p>
+        <h2>Hi there, I'm Tatyana</h2>
+        <p>
+          I am Alyssa Tatyana Tacubao, a beginner learning HTML and CSS.
+          This portfolio shows the projects I have created in this semester.
+        </p>
+      </div>
+
+      <div class="profimage">
+        <div class="image-frame">
+          <img src="ugsface.png" alt="A picture of me">
+        </div>
+      </div>
     </section>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I am a beginner or should I say a little to no knowledge in HTML and CSS.</p>
+    <section id="about" class="content-section">
+      <div class="section-heading">
+        <h2>About Me</h2>
+        <div class="line"></div>
+        <p> I have a little to no knowledge about HTML and CSS.</p>
+      </div>
     </section>
 
-    <section id="projects">
-  <h2>My Projects</h2>
-  <div class="projects">
-    <div class="card">
-      <a href="https://playful-lily-e4d479.netlify.app/classsched/classsched" target="_blank" rel="noopener noreferrer">
-        <h3>Class Schedule</h3>
-      </a>
-    </div>
+    <section id="hobby" class="content-section">
+      <div class="section-heading">
+        <h2>Interests</h2>
+        <div class="line"></div>
+      </div>
 
-    <div class="card">
-      <a href="https://playful-lily-e4d479.netlify.app/studentid/studid" target="_blank" rel="noopener noreferrer">
-        <h3>Student ID</h3>
-      </a>
-    </div>
+      <p class="section-text">
+        These aren't related to HTML and CSS. I just put it here to not make the site a little empty.
+      </p>
 
-    <div class="card">
-      <a href="https://playful-lily-e4d479.netlify.app/" target="_blank" rel="noopener noreferrer">
-        <h3>Blog Post</h3>
-      </a>
-    </div>
-  </div>
-</section>
+      <div class="about-grid">
+        <article class="info-card">
+          <h3>Crocheting</h3>
+          <p>
+            I crochet. I have tried a boquet of flowers, and amigurumi (which is basically a plushy).
+          </p>
+        </article>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>You can contact me through:</p>
+        <article class="info-card">
+          <h3>Watching TV Shows and Movies</h3>
+          <p>
+            I enjoy watching tv series and movies especially whodunnit and horror.
+          </p>
+        </article>
+      </div>
+    </section>
 
-      <div class="contact-links">
-        <a href="20230028219@my.xu.edu.ph">Email</a>
+    <section id="projects" class="projects-section">
+      <div class="section-heading">
+        <h2>Projects</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="projects">
+        <div class="card">
+          <a href="https://playful-lily-e4d479.netlify.app/classsched/classsched" target="_blank" rel="noopener noreferrer">
+            <h3>Class Schedule Table</h3>
+          </a>
+          <p>The second activity that we did to use the proper table structure, correct the use of table related tags, and orgaization.</p>
+        </div>
+
+        <div class="card">
+          <a href="https://playful-lily-e4d479.netlify.app/studentid/studid" target="_blank" rel="noopener noreferrer">
+            <h3>Student ID</h3>
+          </a>
+          <p>First activity that I actually did so bad but anyway.</p>
+        </div>
+
+        <div class="card">
+          <a href="https://playful-lily-e4d479.netlify.app/" target="_blank" rel="noopener noreferrer">
+            <h3>Blog Post</h3>
+          </a>
+          <p>A Blog site that we did.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="section-heading">
+        <h2>Contact</h2>
+        <div class="line"></div>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-text">
+          <p>You can contact me through email:</p>
+          <p><strong>Email:</strong> 20230028219@my.xu.edu.ph</p>
+        </div>
+
+        <div class="contact-links">
+          <a href="mailto:20230028219@my.xu.edu.ph">Send Email</a>
+        </div>
       </div>
     </section>
   </main>
@@ -65,5 +122,6 @@
   <footer>
     <p>© 2026 Tatyana Portfolio</p>
   </footer>
+
 </body>
 </html>
